@@ -1,0 +1,64 @@
+# ==========================================
+# Gradle Build & Artifacts
+# ==========================================
+.gradle/
+build/
+/*/build/
+.build-status
+.gradle-home
+
+# ==========================================
+# Java & IDEs (IntelliJ IDEA, VS Code, Eclipse)
+# ==========================================
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# ==========================================
+# Log Files
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# Operating System Junk
+# ==========================================
+# Linux / Unix
+.directory
+.Desktop
+.local
+.cache/
+
+# macOS (if shared with teammates)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# SwarmShare Runtime & Test Artifacts
+# ==========================================
+# Ignore local runtime configuration overrides
+config/*.local.conf
+
+# Ignore real data/ISO files being shared or downloaded locally during manual tests
+*.bin
+*.iso
+*.img
+downloads/
+shared_files/
+
+# Exception: Keep the default configuration template
+!config/default.conf
