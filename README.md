@@ -5,6 +5,8 @@
 
 [![Dependabot Updates](https://github.com/deadboyccc/swarm-share-lite/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/deadboyccc/swarm-share-lite/actions/workflows/dependabot/dependabot-updates)
 
+[![Automatic Dependency Submission](https://github.com/deadboyccc/swarm-share-lite/actions/workflows/dependency-graph/auto-submission/badge.svg)](https://github.com/deadboyccc/swarm-share-lite/actions/workflows/dependency-graph/auto-submission)
+
 **P2P chunk-based file distribution with logarithmic peer scaling.**
 
 Traditional file distribution bottlenecks at the source. swarm-share turns every node that receives a chunk into a server, enabling exponential throughput growth as the swarm expands.
